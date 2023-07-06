@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    font-family: sans-serif;
 }
 
 header{
@@ -23,16 +24,15 @@ nav ul{
 }
 nav ul li{    
     list-style: none;
-    font-family: sans-serif;
 }
 nav ul li :hover{
     background-color: #f56709;
-    color: #000;
+    color: #fff;
 }
 
 nav a{
     text-decoration: none;
-    color: #bbb6b6;
+    color: #f56709;
     padding: 15px;
     text-transform: uppercase;
 }
@@ -49,4 +49,45 @@ nav a{
 }
 .logo a :hover{
     width: 100px;
+}
+
+#banner{
+    margin-top: 12px;
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/CaixaDeSom2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 640px;
+}
+
+.banner_headline{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;
+}
+
+.banner_headline h1, h2{
+    margin: 0px;
+    color: #fff;
+}
+.banner_headline h1{
+    font-size: 70px;
+    color: #f56709;
+    
+}
+.banner_headline h2{
+    font-size: 33px;
+}
+
+#buyNow{
+    margin-top: 20px;
+    font-size: 15px;
+}
+#buyNow a{
+    text-decoration: none;
+    color: #fff;
+    background-color: #f56709;
+    padding: 10px;
+    margin-left: 8px;
 }
