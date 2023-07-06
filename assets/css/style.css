@@ -3,7 +3,50 @@ body{
     padding: 0px;
 }
 
-.container{
-    background-color: #0f0;
+header{
     display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
+.menu{
+    margin-top: 10px;
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{    
+    list-style: none;
+    font-family: sans-serif;
+}
+nav ul li :hover{
+    background-color: #f56709;
+    color: #000;
+}
+
+nav a{
+    text-decoration: none;
+    color: #bbb6b6;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+#login_decoracao{
+    background-color: #f56709;
+    color: #fff;
+}
+
+.logo{
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+}
+.logo a :hover{
+    width: 100px;
 }
