@@ -99,3 +99,71 @@ nav a{
     background-color: #ad481c;
     color: #c5c5c5;
 }
+
+#geral{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.banner_motives_title{
+    font-size: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bar_title{
+    width: 120px;
+    height: 3px;
+    background-color: #f56709;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 2px;
+}
+
+.motives{
+    align-items: center;
+    flex-direction: column;
+}
+
+#numbers{
+    display: flex;
+}
+
+.line{
+    width: 100px;
+    height: 1px;
+    border-bottom: dotted 2px #f56709;
+    margin-top: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.number_motives{
+    margin-bottom: 10px;
+}
+
+#motives_desc{
+    display: flex;
+}
+
+.motive{
+    width: 180px;
+    text-align: center;
+}
+
+#motive_1{
+    margin-left: -60px;
+}
+#motive_2{
+    margin-left: 15px;
+}
+#motive_3{
+    margin-left: 20px;
+}
+#motive_4{
+    margin-left: 25px;
+}
