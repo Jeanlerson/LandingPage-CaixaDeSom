@@ -71,11 +71,15 @@ nav a{
     margin: 0px;
     color: #fff;
 }
+
 .banner_headline h1{
-    font-size: 70px;
-    color: #f56709;
-    
+    font-size: 70px;   
 }
+.banner_headline h1 a{
+    text-decoration: none;
+    color: #f56709;
+}
+
 .banner_headline h2{
     font-size: 33px;
 }
@@ -90,4 +94,8 @@ nav a{
     background-color: #f56709;
     padding: 10px;
     margin-left: 8px;
+}
+#buyNow a:hover{
+    background-color: #ad481c;
+    color: #c5c5c5;
 }
