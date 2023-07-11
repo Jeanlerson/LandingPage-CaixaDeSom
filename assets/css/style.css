@@ -107,7 +107,7 @@ nav a{
     color: #fff;
 }
 
-.banner_motives_title{
+.banner_title{
     font-size: 40px;
     margin-top: 30px;
     display: flex;
@@ -115,7 +115,7 @@ nav a{
     align-items: center;
 }
 
-#bar_title{
+.bar_title{
     width: 120px;
     height: 3px;
     background-color: #f56709;
@@ -148,6 +148,7 @@ nav a{
 
 #motives_desc{
     display: flex;
+    margin-bottom: 20px;
 }
 
 .motive{
@@ -166,4 +167,70 @@ nav a{
 }
 #motive_4{
     margin-left: 25px;
+}
+
+#specification{
+    background-color: #000;
+    color: #fff;
+}
+
+#banner_title_specification{
+    margin: 0px;
+}
+
+
+footer {
+    height: 90px;
+    background-color: #1e1e1e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rodape_minhas_redes {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-right: 10px;
+    border-right: 1px dotted #5c5c5c;
+}
+.rodape_fontes {
+    margin-left: 10px;
+    margin-top: -25px;
+}
+.rodape_fontes a {
+    text-decoration: none;
+    color: #5c5c5c;
+}
+#wiki {
+    margin-left: 50px;
+}
+
+.footer_copy {
+    margin-top: 10px;
+    margin-left: 30px;
+    color: #5c5c5c;
+    border-bottom: 2px dotted #2c2c2c;
+}
+
+.footer_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#insta {
+    width: 30px;
+    padding-right: 8px;
+}
+#linke {
+    width: 36px;
+}
+#git {
+    width: 48px;
 }
