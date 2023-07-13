@@ -343,3 +343,70 @@ footer {
         margin-top: 150px;
     }
 }
+
+@media (max-width: 700px){
+    #banner_newDisplay{
+        height: 440px;
+    }
+
+    #banner_newDisplay h1{
+        font-size: 60px;
+    }
+    #banner_newDisplay h2{
+        font-size: 23px;
+    }
+    #buyNow{
+        margin-top: 15px;
+        font-size: 15px !important;
+    }
+
+    .banner_headline{
+        margin-top: 180px;
+    }
+
+    .motives_820px{
+        display: none;
+    }
+
+    .motives{
+        display: flex;
+    }
+
+    .number_motives img{
+        width: 50px;
+    }
+
+    .number_motives{
+        margin-bottom: 0px;
+    }
+
+    #numbers{
+        justify-content: center;
+    }
+
+    .line{
+        width: 50px;
+    }
+
+    .motive{
+        margin: 0px;
+        width: 100px;
+    }
+    
+    #motives_desc{
+        justify-content: center;
+    }
+
+    #motive_1{
+        margin-left: 0px;
+    }
+    #motive_2{
+        margin-left: 55px;
+    }
+    #motive_3{
+        margin-left: 50px;
+    }
+    #motive_4{
+        margin-left: 50px;
+    }
+}
