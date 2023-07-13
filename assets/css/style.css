@@ -169,6 +169,11 @@ nav a{
     margin-left: 25px;
 }
 
+.specification-class{
+    align-items: center;
+    flex-direction: column;
+}
+
 #specification{
     display: flex;
     justify-content: center;
@@ -265,9 +270,76 @@ footer {
     width: 48px;
 }
 
+#banner_newDisplay{
+    display: none;
+}
+.motives_820px{
+    display: none;
+}
+
+
 @media (max-width: 1020px){
     .container{
         margin-left: 10px;
         margin-right: 10px;
+    }
+}
+
+@media (max-width: 820px){
+    .motives{
+        display: none;
+    }
+
+    #banner_title_specification{
+        display:flex ;
+    }
+
+    .motives_820px{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .banner_motives_newDisplay{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .number_motives{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 80px;
+    }
+
+    .banner_title{
+        margin-bottom: 30px;
+    }
+
+    .specification-class{
+        margin-top: 100px;
+    }
+
+    .number_motives img{
+        width: 80px;
+        margin-bottom: 15px;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #banner_newDisplay{
+        margin-top: 12px;
+        display: flex;
+        justify-content: center;
+        background-image: url('../img/CaixaDeSom3.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 540px;
+    }
+
+    .banner_headline{
+        margin-top: 150px;
     }
 }
