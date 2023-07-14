@@ -332,7 +332,7 @@ footer {
     }
 
     .number_motives img{
-        width: 80px;
+        width: 60px;
         margin-bottom: 15px;
     }
 
@@ -361,10 +361,10 @@ footer {
     }
 
     #banner_newDisplay h1{
-        font-size: 60px;
+        font-size: 55px;
     }
     #banner_newDisplay h2{
-        font-size: 23px;
+        font-size: 18px;
     }
     #buyNow{
         margin-top: 15px;
@@ -435,7 +435,7 @@ footer {
         flex-direction: column;
         display: none;
         position: absolute;
-        width: 30%;
+        width: 50%;
         left: 0px;
         background-color: #fff;
         margin: 0px;
@@ -450,5 +450,74 @@ footer {
 
     .logo{
         margin-right: 20px;
+    }
+
+    #login_decoracao{
+        background-color: #fff;
+        color: #f56709;
+    }
+}
+
+@media (max-width: 570px){
+    .motives_820px{
+        display: flex;
+    }
+
+    .motives{
+        display: none;
+    }
+    
+    .number_motives{
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+
+    .banner_title{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px){
+    nav ul {
+        width: 100%;
+    }
+    #banner_newDisplay{
+        background-image: url('../img/CaixaDeSom4.jpg');
+        height: 340px;
+    }
+    #banner_newDisplay h1{
+        font-size: 45px;
+    }
+    #banner_newDisplay h2{
+        font-size: 13px;
+    }
+    #buyNow{
+        font-size: 13px !important;
+        flex-direction: column;
+        display: flex;
+    }
+    #buyNow a{
+        margin: 0px;
+        width: 66px;
+        padding: 5px;
+    }
+
+    .banner_headline{
+        margin-top: 100px;
+    }
+
+    .specification_desc h1{
+        font-size: 20px;
+    }
+    .specification_desc p{
+        font-size: 12px;
+    }
+
+    footer{
+        font-size: 10px;
+    }
+
+    #wiki{
+        margin-left: 38px;
     }
 }
