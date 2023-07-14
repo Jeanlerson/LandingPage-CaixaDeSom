@@ -277,6 +277,17 @@ footer {
     display: none;
 }
 
+.menu_mobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #f56709;
+}
+
 
 @media (max-width: 1020px){
     .container{
@@ -408,5 +419,36 @@ footer {
     }
     #motive_4{
         margin-left: 50px;
+    }
+
+    header .container{
+        flex-direction: row-reverse;
+    }
+
+    .menu_mobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    nav ul{
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        width: 30%;
+        left: 0px;
+        background-color: #fff;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    nav ul li{
+        margin: 3px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .logo{
+        margin-right: 20px;
     }
 }

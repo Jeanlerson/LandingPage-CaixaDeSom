@@ -5,6 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Caixa de Som</title>
+
+    <script type="text/javascript">
+        window.onload = function(){
+            document.querySelector('.menu_mobile').addEventListener('click', function() {
+                if(document.querySelector('.menu nav ul').style.display == 'flex') {
+                    document.querySelector('.menu nav ul').style.display = 'none';
+                } else {
+                    document.querySelector('.menu nav ul').style.display = 'flex';
+                }
+            })
+        };
+    </script>
+
 </head>
 <body>
 
@@ -13,12 +26,17 @@
             <div class="logo"><a href=""><img id="img_logo" src="assets/img/logo.png" alt="logo"></a></div>
             <div class="menu">
                 <nav>
+                    <div class="menu_mobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+
                     <ul>
-                        <li><a href="">tour</a></li>
-                        <li><a href="">pricing</a></li>
-                        <li><a href="">blog</a></li>
-                        <li><a href="">support</a></li>
-                        <li><a href="">buy now</a></li>
+                        <li><a href="">preços</a></li>
+                        <li><a href="">blogue</a></li>
+                        <li><a href="">suporte</a></li>
+                        <li><a href="">comprar</a></li>
                         <li><a href="" id="login_decoracao">login</a></li>
                     </ul>
                 </nav>
