@@ -1,1 +1,1 @@
-Landing Page feita para prática. Produto Caixa de som JBL
+Landing Page feita de um produto para praticar.
